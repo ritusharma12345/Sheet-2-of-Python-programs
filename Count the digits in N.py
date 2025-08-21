@@ -1,3 +1,4 @@
-N = int(input("Enter N: "))
-count = len(str(N))
+n= int(input("Enter n: "))
+count = len(str(n))
 print(count)
+
