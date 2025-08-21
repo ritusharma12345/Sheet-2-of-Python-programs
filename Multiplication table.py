@@ -1,3 +1,3 @@
-A = int(input("Enter A: "))
+n = int(input("Enter n: "))
 for i in range(1, 11):
-    print(f"{A} * {i} = {A * i}")
+    print(n ,'*', i,'=',num*i)
