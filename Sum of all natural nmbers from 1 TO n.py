@@ -1,3 +1,4 @@
-N = int(input("Enter N: "))
-total = N * (N + 1) // 2   
+n = int(input("Enter n: "))
+total = n * (n + 1) // 2   
 print(total)
+
