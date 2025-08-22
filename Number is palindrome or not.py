@@ -1,5 +1,12 @@
-A = int(input("Enter A: "))
-if str(A) == str(A)[::-1]:
-    print("Yes")
+n = int(input("Enter a number: "))
+n_str = str(n)
+rev_str = n_str[::-1]
+if n_str == rev_str:
+    print("{n} is a palindrome.")
 else:
-    print("No")
+    print("{n} is not a palindrome.")
+
+
+
+
+
